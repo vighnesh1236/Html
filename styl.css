@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     background-color: bisque;
     font-family: 'Arial', sans-serif;
@@ -29,7 +29,7 @@ header p {
     font-size: 1.2rem;
 }
 
-/* Section Styles */
+
 section {
     padding: 2rem 0;
     text-align: center;
@@ -80,7 +80,7 @@ footer {
     padding: 1rem 0;
 }
 
-/* Hover Effects */
+
 a:hover, .project:hover {
     color: #007BFF;
     transition: color 0.3s ease;
@@ -92,7 +92,7 @@ a:hover, .project:hover {
     transition: background 0.3s ease;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     #about .content, #contact .content {
         flex-direction: column;
